@@ -20,6 +20,10 @@
 
 ## UNRELEASED
 
+## **v4.4.9.5** [https://www.nuget.org/packages/Microsoft.CodeAnalysis.BinSkim/4.4.9.5]
+* NEW: Add --enable-disabled-rules and --run-only-rules CLI arguments [1153](https://github.com/microsoft/binskim/pull/1153)
+* PRF: Fix ReadBlock() method to handle end of data for DWARF5[1154](https://github.com/microsoft/binskim/pull/1154/)
+
 ## **v4.4.9.4** [https://www.nuget.org/packages/Microsoft.CodeAnalysis.BinSkim/4.4.9.4]
 * PRF: Enhance argument generation to ignore full-line comments and handle inline comments correctly [1150](https://github.com/microsoft/binskim/pull/1150)
 
